@@ -15,4 +15,9 @@ public class ChangeScene: MonoBehaviour
     {
         SceneManager.LoadScene("scene0");
     }
+
+    public void Credit()
+    {
+        SceneManager.LoadScene("credit");
+    }
 }
